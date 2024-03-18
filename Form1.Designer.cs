@@ -66,6 +66,7 @@ namespace LengthCalculator
             this.txtCM.Name = "txtCM";
             this.txtCM.Size = new System.Drawing.Size(128, 34);
             this.txtCM.TabIndex = 1;
+            this.txtCM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtCM_KeyUp);
             // 
             // txtM
             // 
