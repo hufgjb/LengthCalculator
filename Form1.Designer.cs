@@ -43,7 +43,7 @@ namespace LengthCalculator
             this.label6 = new System.Windows.Forms.Label();
             this.btnAllClear = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtInfo = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -193,20 +193,21 @@ namespace LengthCalculator
             this.label7.TabIndex = 13;
             this.label7.Text = "Description";
             // 
-            // textBox1
+            // txtInfo
             // 
-            this.textBox1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.textBox1.Location = new System.Drawing.Point(73, 458);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(666, 34);
-            this.textBox1.TabIndex = 14;
+            this.txtInfo.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtInfo.Location = new System.Drawing.Point(73, 458);
+            this.txtInfo.Name = "txtInfo";
+            this.txtInfo.Size = new System.Drawing.Size(666, 34);
+            this.txtInfo.TabIndex = 14;
+            this.txtInfo.Text = "Please Enter Numbers Only";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(883, 515);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtInfo);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.btnAllClear);
             this.Controls.Add(this.txtYard);
@@ -245,7 +246,7 @@ namespace LengthCalculator
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnAllClear;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtInfo;
     }
 }
 
