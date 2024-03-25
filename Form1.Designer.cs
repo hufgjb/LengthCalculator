@@ -56,7 +56,6 @@ namespace LengthCalculator
             this.label1.Size = new System.Drawing.Size(206, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Centimeter (CM)";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtCM
             // 
@@ -76,6 +75,7 @@ namespace LengthCalculator
             this.txtM.Name = "txtM";
             this.txtM.Size = new System.Drawing.Size(128, 34);
             this.txtM.TabIndex = 3;
+            this.txtM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtM_KeyUp);
             // 
             // label2
             // 
@@ -87,7 +87,6 @@ namespace LengthCalculator
             this.label2.Size = new System.Drawing.Size(130, 31);
             this.label2.TabIndex = 2;
             this.label2.Text = "Meter (M)";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtKM
             // 
@@ -97,6 +96,7 @@ namespace LengthCalculator
             this.txtKM.Name = "txtKM";
             this.txtKM.Size = new System.Drawing.Size(128, 34);
             this.txtKM.TabIndex = 5;
+            this.txtKM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtKM_KeyUp);
             // 
             // label3
             // 
@@ -117,6 +117,7 @@ namespace LengthCalculator
             this.txtYard.Name = "txtYard";
             this.txtYard.Size = new System.Drawing.Size(128, 34);
             this.txtYard.TabIndex = 11;
+            this.txtYard.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtYard_KeyUp);
             // 
             // label4
             // 
@@ -137,6 +138,7 @@ namespace LengthCalculator
             this.txtFt.Name = "txtFt";
             this.txtFt.Size = new System.Drawing.Size(128, 34);
             this.txtFt.TabIndex = 9;
+            this.txtFt.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtFt_KeyUp);
             // 
             // label5
             // 
@@ -157,6 +159,7 @@ namespace LengthCalculator
             this.txtIn.Name = "txtIn";
             this.txtIn.Size = new System.Drawing.Size(128, 34);
             this.txtIn.TabIndex = 7;
+            this.txtIn.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtIn_KeyUp);
             // 
             // label6
             // 
@@ -178,6 +181,7 @@ namespace LengthCalculator
             this.btnAllClear.TabIndex = 12;
             this.btnAllClear.Text = "Clear";
             this.btnAllClear.UseVisualStyleBackColor = true;
+            this.btnAllClear.Click += new System.EventHandler(this.btnAllClear_Click);
             // 
             // label7
             // 
